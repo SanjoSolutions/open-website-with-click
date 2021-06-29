@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Open Website With Click</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <a href="https://example.com" style="display: block; width: 100vw; height: 100vh; position: absolute; left: 0; top: 0; cursor: auto; display: none;" target="_blank"></a>
+  <a href="https://facebook.com" id="a">Facebook</a>
+  <script>
+    const a = document.getElementById('a')
+
+    a.addEventListener('click', function (event) {
+      event.preventDefault()
+      window.open('https://example.com', '_blank')
+    })
+  </script>
+</body>
+</html>
