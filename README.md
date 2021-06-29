@@ -9,4 +9,4 @@ This demonstation is intended for educational purposes only.
 
 ## Demo
 
-[Demo]()
+[Demo](https://sanjosolutions.github.io/open-website-with-click/)
